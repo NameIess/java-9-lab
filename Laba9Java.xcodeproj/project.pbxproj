@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A29E1F21BB001F004C3E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E1E21BB001F004C3E1D /* AppDelegate.m */; };
+		32A29E2221BB001F004C3E1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E2121BB001F004C3E1D /* ViewController.m */; };
+		32A29E2521BB001F004C3E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A29E2321BB001F004C3E1D /* Main.storyboard */; };
+		32A29E2821BB001F004C3E1D /* Laba9Java.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E2621BB001F004C3E1D /* Laba9Java.xcdatamodeld */; };
+		32A29E2A21BB001F004C3E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A29E2921BB001F004C3E1D /* Assets.xcassets */; };
+		32A29E2D21BB001F004C3E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A29E2B21BB001F004C3E1D /* LaunchScreen.storyboard */; };
+		32A29E3021BB001F004C3E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E2F21BB001F004C3E1D /* main.m */; };
+		32A29E3A21BB001F004C3E1D /* Laba9JavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E3921BB001F004C3E1D /* Laba9JavaTests.m */; };
+		32A29E4521BB0020004C3E1D /* Laba9JavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E4421BB0020004C3E1D /* Laba9JavaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A29E3621BB001F004C3E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A29E1221BB001F004C3E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A29E1921BB001F004C3E1D;
+			remoteInfo = Laba9Java;
+		};
+		32A29E4121BB0020004C3E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A29E1221BB001F004C3E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A29E1921BB001F004C3E1D;
+			remoteInfo = Laba9Java;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A29E1A21BB001F004C3E1D /* Laba9Java.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laba9Java.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A29E1D21BB001F004C3E1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A29E1E21BB001F004C3E1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A29E2021BB001F004C3E1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32A29E2121BB001F004C3E1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32A29E2421BB001F004C3E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A29E2721BB001F004C3E1D /* Laba9Java.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Laba9Java.xcdatamodel; sourceTree = "<group>"; };
+		32A29E2921BB001F004C3E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A29E2C21BB001F004C3E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A29E2E21BB001F004C3E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A29E2F21BB001F004C3E1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A29E3521BB001F004C3E1D /* Laba9JavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laba9JavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A29E3921BB001F004C3E1D /* Laba9JavaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laba9JavaTests.m; sourceTree = "<group>"; };
+		32A29E3B21BB001F004C3E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A29E4021BB0020004C3E1D /* Laba9JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laba9JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A29E4421BB0020004C3E1D /* Laba9JavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laba9JavaUITests.m; sourceTree = "<group>"; };
+		32A29E4621BB0020004C3E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A29E1721BB001F004C3E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3221BB001F004C3E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3D21BB0020004C3E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A29E1121BB001F004C3E1D = {
+			isa = PBXGroup;
+			children = (
+				32A29E1C21BB001F004C3E1D /* Laba9Java */,
+				32A29E3821BB001F004C3E1D /* Laba9JavaTests */,
+				32A29E4321BB0020004C3E1D /* Laba9JavaUITests */,
+				32A29E1B21BB001F004C3E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A29E1B21BB001F004C3E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A29E1A21BB001F004C3E1D /* Laba9Java.app */,
+				32A29E3521BB001F004C3E1D /* Laba9JavaTests.xctest */,
+				32A29E4021BB0020004C3E1D /* Laba9JavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A29E1C21BB001F004C3E1D /* Laba9Java */ = {
+			isa = PBXGroup;
+			children = (
+				32A29E1D21BB001F004C3E1D /* AppDelegate.h */,
+				32A29E1E21BB001F004C3E1D /* AppDelegate.m */,
+				32A29E2021BB001F004C3E1D /* ViewController.h */,
+				32A29E2121BB001F004C3E1D /* ViewController.m */,
+				32A29E2321BB001F004C3E1D /* Main.storyboard */,
+				32A29E2921BB001F004C3E1D /* Assets.xcassets */,
+				32A29E2B21BB001F004C3E1D /* LaunchScreen.storyboard */,
+				32A29E2E21BB001F004C3E1D /* Info.plist */,
+				32A29E2F21BB001F004C3E1D /* main.m */,
+				32A29E2621BB001F004C3E1D /* Laba9Java.xcdatamodeld */,
+			);
+			path = Laba9Java;
+			sourceTree = "<group>";
+		};
+		32A29E3821BB001F004C3E1D /* Laba9JavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A29E3921BB001F004C3E1D /* Laba9JavaTests.m */,
+				32A29E3B21BB001F004C3E1D /* Info.plist */,
+			);
+			path = Laba9JavaTests;
+			sourceTree = "<group>";
+		};
+		32A29E4321BB0020004C3E1D /* Laba9JavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32A29E4421BB0020004C3E1D /* Laba9JavaUITests.m */,
+				32A29E4621BB0020004C3E1D /* Info.plist */,
+			);
+			path = Laba9JavaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A29E1921BB001F004C3E1D /* Laba9Java */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A29E4921BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9Java" */;
+			buildPhases = (
+				32A29E1621BB001F004C3E1D /* Sources */,
+				32A29E1721BB001F004C3E1D /* Frameworks */,
+				32A29E1821BB001F004C3E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laba9Java;
+			productName = Laba9Java;
+			productReference = 32A29E1A21BB001F004C3E1D /* Laba9Java.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A29E3421BB001F004C3E1D /* Laba9JavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A29E4C21BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9JavaTests" */;
+			buildPhases = (
+				32A29E3121BB001F004C3E1D /* Sources */,
+				32A29E3221BB001F004C3E1D /* Frameworks */,
+				32A29E3321BB001F004C3E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A29E3721BB001F004C3E1D /* PBXTargetDependency */,
+			);
+			name = Laba9JavaTests;
+			productName = Laba9JavaTests;
+			productReference = 32A29E3521BB001F004C3E1D /* Laba9JavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32A29E3F21BB0020004C3E1D /* Laba9JavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A29E4F21BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9JavaUITests" */;
+			buildPhases = (
+				32A29E3C21BB0020004C3E1D /* Sources */,
+				32A29E3D21BB0020004C3E1D /* Frameworks */,
+				32A29E3E21BB0020004C3E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A29E4221BB0020004C3E1D /* PBXTargetDependency */,
+			);
+			name = Laba9JavaUITests;
+			productName = Laba9JavaUITests;
+			productReference = 32A29E4021BB0020004C3E1D /* Laba9JavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A29E1221BB001F004C3E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dima ";
+				TargetAttributes = {
+					32A29E1921BB001F004C3E1D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					32A29E3421BB001F004C3E1D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A29E1921BB001F004C3E1D;
+					};
+					32A29E3F21BB0020004C3E1D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A29E1921BB001F004C3E1D;
+					};
+				};
+			};
+			buildConfigurationList = 32A29E1521BB001F004C3E1D /* Build configuration list for PBXProject "Laba9Java" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A29E1121BB001F004C3E1D;
+			productRefGroup = 32A29E1B21BB001F004C3E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A29E1921BB001F004C3E1D /* Laba9Java */,
+				32A29E3421BB001F004C3E1D /* Laba9JavaTests */,
+				32A29E3F21BB0020004C3E1D /* Laba9JavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A29E1821BB001F004C3E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A29E2D21BB001F004C3E1D /* LaunchScreen.storyboard in Resources */,
+				32A29E2A21BB001F004C3E1D /* Assets.xcassets in Resources */,
+				32A29E2521BB001F004C3E1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3321BB001F004C3E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3E21BB0020004C3E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A29E1621BB001F004C3E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A29E2821BB001F004C3E1D /* Laba9Java.xcdatamodeld in Sources */,
+				32A29E2221BB001F004C3E1D /* ViewController.m in Sources */,
+				32A29E3021BB001F004C3E1D /* main.m in Sources */,
+				32A29E1F21BB001F004C3E1D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3121BB001F004C3E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A29E3A21BB001F004C3E1D /* Laba9JavaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A29E3C21BB0020004C3E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A29E4521BB0020004C3E1D /* Laba9JavaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A29E3721BB001F004C3E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A29E1921BB001F004C3E1D /* Laba9Java */;
+			targetProxy = 32A29E3621BB001F004C3E1D /* PBXContainerItemProxy */;
+		};
+		32A29E4221BB0020004C3E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A29E1921BB001F004C3E1D /* Laba9Java */;
+			targetProxy = 32A29E4121BB0020004C3E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A29E2321BB001F004C3E1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A29E2421BB001F004C3E1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A29E2B21BB001F004C3E1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A29E2C21BB001F004C3E1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A29E4721BB0020004C3E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32A29E4821BB0020004C3E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A29E4A21BB0020004C3E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9Java/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9Java;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32A29E4B21BB0020004C3E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9Java/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9Java;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32A29E4D21BB0020004C3E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9JavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9JavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laba9Java.app/Laba9Java";
+			};
+			name = Debug;
+		};
+		32A29E4E21BB0020004C3E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9JavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9JavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laba9Java.app/Laba9Java";
+			};
+			name = Release;
+		};
+		32A29E5021BB0020004C3E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9JavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9JavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laba9Java;
+			};
+			name = Debug;
+		};
+		32A29E5121BB0020004C3E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Laba9JavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Laba9JavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laba9Java;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A29E1521BB001F004C3E1D /* Build configuration list for PBXProject "Laba9Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A29E4721BB0020004C3E1D /* Debug */,
+				32A29E4821BB0020004C3E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A29E4921BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A29E4A21BB0020004C3E1D /* Debug */,
+				32A29E4B21BB0020004C3E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A29E4C21BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9JavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A29E4D21BB0020004C3E1D /* Debug */,
+				32A29E4E21BB0020004C3E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A29E4F21BB0020004C3E1D /* Build configuration list for PBXNativeTarget "Laba9JavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A29E5021BB0020004C3E1D /* Debug */,
+				32A29E5121BB0020004C3E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32A29E2621BB001F004C3E1D /* Laba9Java.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32A29E2721BB001F004C3E1D /* Laba9Java.xcdatamodel */,
+			);
+			currentVersion = 32A29E2721BB001F004C3E1D /* Laba9Java.xcdatamodel */;
+			path = Laba9Java.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32A29E1221BB001F004C3E1D /* Project object */;
+}
