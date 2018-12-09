@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3235770621BD64E5002BE546 /* HeadsTaill.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235770521BD64E5002BE546 /* HeadsTaill.m */; };
+		3235770C21BD7181002BE546 /* MyltiplicationTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235770B21BD7181002BE546 /* MyltiplicationTable.m */; };
+		3235770F21BD74F2002BE546 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235770E21BD74F2002BE546 /* Task.m */; };
+		3235771321BD76BF002BE546 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235771221BD76BF002BE546 /* Quiz.m */; };
+		3235771621BD78F2002BE546 /* TaskFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235771521BD78F2002BE546 /* TaskFactory.m */; };
+		3235771921BD8FE6002BE546 /* NumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235771821BD8FE6002BE546 /* NumberUtil.m */; };
 		32A29E1F21BB001F004C3E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E1E21BB001F004C3E1D /* AppDelegate.m */; };
 		32A29E2221BB001F004C3E1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E2121BB001F004C3E1D /* ViewController.m */; };
 		32A29E2521BB001F004C3E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A29E2321BB001F004C3E1D /* Main.storyboard */; };
@@ -16,6 +22,7 @@
 		32A29E3021BB001F004C3E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E2F21BB001F004C3E1D /* main.m */; };
 		32A29E3A21BB001F004C3E1D /* Laba9JavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E3921BB001F004C3E1D /* Laba9JavaTests.m */; };
 		32A29E4521BB0020004C3E1D /* Laba9JavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E4421BB0020004C3E1D /* Laba9JavaUITests.m */; };
+		32A29E5421BB0058004C3E1D /* SeasonUtill.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A29E5321BB0058004C3E1D /* SeasonUtill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3235770421BD64C9002BE546 /* NSObject+HeadsTail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HeadsTail.h"; sourceTree = "<group>"; };
+		3235770521BD64E5002BE546 /* HeadsTaill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadsTaill.m; sourceTree = "<group>"; };
+		3235770A21BD716E002BE546 /* NSObject+MyltiplicationTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyltiplicationTable.h"; sourceTree = "<group>"; };
+		3235770B21BD7181002BE546 /* MyltiplicationTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyltiplicationTable.m; sourceTree = "<group>"; };
+		3235770D21BD74DB002BE546 /* NSObject+Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Task.h"; sourceTree = "<group>"; };
+		3235770E21BD74F2002BE546 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		3235771121BD76A5002BE546 /* NSObject+Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Question.h"; sourceTree = "<group>"; };
+		3235771221BD76BF002BE546 /* Quiz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		3235771421BD78BA002BE546 /* NSObject+TaskFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TaskFactory.h"; sourceTree = "<group>"; };
+		3235771521BD78F2002BE546 /* TaskFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskFactory.m; sourceTree = "<group>"; };
+		3235771721BD8FC6002BE546 /* NSObject+NumbersUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NumbersUtil.h"; sourceTree = "<group>"; };
+		3235771821BD8FE6002BE546 /* NumberUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberUtil.m; sourceTree = "<group>"; };
 		32A29E1A21BB001F004C3E1D /* Laba9Java.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laba9Java.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A29E1D21BB001F004C3E1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32A29E1E21BB001F004C3E1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +72,8 @@
 		32A29E4021BB0020004C3E1D /* Laba9JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laba9JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A29E4421BB0020004C3E1D /* Laba9JavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laba9JavaUITests.m; sourceTree = "<group>"; };
 		32A29E4621BB0020004C3E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A29E5221BB003E004C3E1D /* NSObject+SeasonUtill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SeasonUtill.h"; sourceTree = "<group>"; };
+		32A29E5321BB0058004C3E1D /* SeasonUtill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeasonUtill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +131,23 @@
 				32A29E2321BB001F004C3E1D /* Main.storyboard */,
 				32A29E2921BB001F004C3E1D /* Assets.xcassets */,
 				32A29E2B21BB001F004C3E1D /* LaunchScreen.storyboard */,
+				3235771121BD76A5002BE546 /* NSObject+Question.h */,
 				32A29E2E21BB001F004C3E1D /* Info.plist */,
 				32A29E2F21BB001F004C3E1D /* main.m */,
 				32A29E2621BB001F004C3E1D /* Laba9Java.xcdatamodeld */,
+				32A29E5221BB003E004C3E1D /* NSObject+SeasonUtill.h */,
+				32A29E5321BB0058004C3E1D /* SeasonUtill.m */,
+				3235770421BD64C9002BE546 /* NSObject+HeadsTail.h */,
+				3235770521BD64E5002BE546 /* HeadsTaill.m */,
+				3235770A21BD716E002BE546 /* NSObject+MyltiplicationTable.h */,
+				3235770B21BD7181002BE546 /* MyltiplicationTable.m */,
+				3235770D21BD74DB002BE546 /* NSObject+Task.h */,
+				3235770E21BD74F2002BE546 /* Task.m */,
+				3235771221BD76BF002BE546 /* Quiz.m */,
+				3235771421BD78BA002BE546 /* NSObject+TaskFactory.h */,
+				3235771521BD78F2002BE546 /* TaskFactory.m */,
+				3235771721BD8FC6002BE546 /* NSObject+NumbersUtil.h */,
+				3235771821BD8FE6002BE546 /* NumberUtil.m */,
 			);
 			path = Laba9Java;
 			sourceTree = "<group>";
@@ -270,7 +305,14 @@
 			files = (
 				32A29E2821BB001F004C3E1D /* Laba9Java.xcdatamodeld in Sources */,
 				32A29E2221BB001F004C3E1D /* ViewController.m in Sources */,
+				3235770C21BD7181002BE546 /* MyltiplicationTable.m in Sources */,
 				32A29E3021BB001F004C3E1D /* main.m in Sources */,
+				3235770F21BD74F2002BE546 /* Task.m in Sources */,
+				3235771621BD78F2002BE546 /* TaskFactory.m in Sources */,
+				32A29E5421BB0058004C3E1D /* SeasonUtill.m in Sources */,
+				3235771921BD8FE6002BE546 /* NumberUtil.m in Sources */,
+				3235771321BD76BF002BE546 /* Quiz.m in Sources */,
+				3235770621BD64E5002BE546 /* HeadsTaill.m in Sources */,
 				32A29E1F21BB001F004C3E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

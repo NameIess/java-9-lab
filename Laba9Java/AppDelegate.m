@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+SeasonUtill.h"
+#import "NSObject+HeadsTail.h"
+#import "NSObject+MyltiplicationTable.h"
+#import "NSObject+NumbersUtil.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //1
+    SeasonUtill* seasonUtill = [[SeasonUtill alloc] initWith];
+    NSString* season = [seasonUtill getSeasonByMonth:@"2"];
+    NSLog(@"The season is : %@", season);
+    
+    //2
+    HeadsTail* headsTail = [[HeadsTail alloc] init];
+    NSLog(@"headsTail = %@", [headsTail headsTail:200]);
+    
+    //3
+    TaskFactory* taskFactory = [[TaskFactory alloc] init];
+    Quiz* quiz = [[Quiz alloc] init];
+    quiz.tasks = [taskFactory create:2];
+    
+    for (Task* task in quiz.tasks) {
+        NSLog(@"task = %@", task.question);
+        NSLog(@"Enter result");
+        int result = 1;
+        //scanf("%i", result);
+        BOOL isRight = [task checkAnswer:result];
+        NSLog(@"Your answer is %@", [NSNumber numberWithBool:isRight]);
+    }
+    
+    NSLog(@"Your result = %@%%", [NSNumber numberWithDouble:[quiz getPersentOfRightAnswers]]);
+    
+    //4
+    NumberUtil* numberUtil = [[NumberUtil alloc] init];
+    BOOL isLucky = [numberUtil isLucky:@"12345678"];
+    NSLog(@"Do you have a lucky ticket? %@", [NSNumber numberWithBool:isLucky]);
     return YES;
 }
 
